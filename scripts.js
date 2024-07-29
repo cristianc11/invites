@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
       noButton.remove();
       invitationText.remove();
       invitationMessage.forEach(text => text.remove());
-      gifImage.src = "/img/deadpool_heart.gif"; // Cambia el enlace por el nuevo GIF
+      gifImage.src = "img/deadpool_heart.gif" // Cambia el enlace por el nuevo GIF
       thankYouText.classList.remove("hidden");
       hiddenText.classList.remove("hidden");
     });
